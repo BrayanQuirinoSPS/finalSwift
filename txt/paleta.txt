@@ -1,0 +1,12 @@
+Main:
+rgb(0, 176, 242)
+#00B0F2
+
+SecondBlue:
+#00C5F6
+rgb(0, 197, 246)
+
+ThirBlue:
+
+#8DE1FA
+rgb(141, 225, 250)
