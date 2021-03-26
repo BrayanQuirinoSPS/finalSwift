@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD828261260DBA7200F4348D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD828260260DBA7200F4348D /* ProfileViewController.swift */; };
 		FDB47E2D260BF2700062D11F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB47E2C260BF2700062D11F /* AppDelegate.swift */; };
 		FDB47E2F260BF2700062D11F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB47E2E260BF2700062D11F /* SceneDelegate.swift */; };
 		FDB47E31260BF2700062D11F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB47E30260BF2700062D11F /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD828260260DBA7200F4348D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FDB47E29260BF2700062D11F /* final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB47E2C260BF2700062D11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDB47E2E260BF2700062D11F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD82825C260DB5B500F4348D /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				FD828260260DBA7200F4348D /* ProfileViewController.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		FD82825D260DB5C400F4348D /* trivia */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = trivia;
+			sourceTree = "<group>";
+		};
+		FD82825E260DB5D500F4348D /* souvenirs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = souvenirs;
+			sourceTree = "<group>";
+		};
 		FDB47E20260BF2700062D11F = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +80,9 @@
 		FDB47E2B260BF2700062D11F /* final */ = {
 			isa = PBXGroup;
 			children = (
+				FD82825E260DB5D500F4348D /* souvenirs */,
+				FD82825D260DB5C400F4348D /* trivia */,
+				FD82825C260DB5B500F4348D /* profile */,
 				FDB47E2C260BF2700062D11F /* AppDelegate.swift */,
 				FDB47E2E260BF2700062D11F /* SceneDelegate.swift */,
 				FDB47E30260BF2700062D11F /* ViewController.swift */,
@@ -139,6 +166,7 @@
 			files = (
 				FDB47E31260BF2700062D11F /* ViewController.swift in Sources */,
 				FDB47E2D260BF2700062D11F /* AppDelegate.swift in Sources */,
+				FD828261260DBA7200F4348D /* ProfileViewController.swift in Sources */,
 				FDB47E2F260BF2700062D11F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
