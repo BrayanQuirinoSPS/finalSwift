@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1C1100260DBFAB000C1347 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C10FF260DBFAB000C1347 /* InfoViewController.swift */; };
+		FD1C1103260DC048000C1347 /* DiscografiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C1102260DC048000C1347 /* DiscografiaViewController.swift */; };
 		FD828261260DBA7200F4348D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD828260260DBA7200F4348D /* ProfileViewController.swift */; };
 		FDB47E2D260BF2700062D11F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB47E2C260BF2700062D11F /* AppDelegate.swift */; };
 		FDB47E2F260BF2700062D11F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB47E2E260BF2700062D11F /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1C10FF260DBFAB000C1347 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		FD1C1102260DC048000C1347 /* DiscografiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscografiaViewController.swift; sourceTree = "<group>"; };
 		FD828260260DBA7200F4348D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FDB47E29260BF2700062D11F /* final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB47E2C260BF2700062D11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +47,7 @@
 			isa = PBXGroup;
 			children = (
 				FD828260260DBA7200F4348D /* ProfileViewController.swift */,
+				FD1C1102260DC048000C1347 /* DiscografiaViewController.swift */,
 			);
 			path = profile;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 				FDB47E35260BF2760062D11F /* Assets.xcassets */,
 				FDB47E37260BF2760062D11F /* LaunchScreen.storyboard */,
 				FDB47E3A260BF2760062D11F /* Info.plist */,
+				FD1C10FF260DBFAB000C1347 /* InfoViewController.swift */,
 			);
 			path = final;
 			sourceTree = "<group>";
@@ -167,7 +173,9 @@
 				FDB47E31260BF2700062D11F /* ViewController.swift in Sources */,
 				FDB47E2D260BF2700062D11F /* AppDelegate.swift in Sources */,
 				FD828261260DBA7200F4348D /* ProfileViewController.swift in Sources */,
+				FD1C1103260DC048000C1347 /* DiscografiaViewController.swift in Sources */,
 				FDB47E2F260BF2700062D11F /* SceneDelegate.swift in Sources */,
+				FD1C1100260DBFAB000C1347 /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

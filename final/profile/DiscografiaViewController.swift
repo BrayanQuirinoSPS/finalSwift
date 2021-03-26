@@ -1,13 +1,13 @@
 //
-//  ProfileViewController.swift
+//  DiscografiaViewController.swift
 //  final
 //
-//  Created by Brayan Quirino on 25/03/21.
+//  Created by Brayan Quirino on 26/03/21.
 //
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class DiscografiaViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +19,7 @@ class ProfileViewController: UIViewController {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "informacion") as! InfoViewController
         self.present(vc, animated: true, completion: nil)
     }
+    
     /*
     // MARK: - Navigation
 
