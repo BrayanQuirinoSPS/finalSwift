@@ -10,7 +10,13 @@
 		FD1C1100260DBFAB000C1347 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C10FF260DBFAB000C1347 /* InfoViewController.swift */; };
 		FD1C1103260DC048000C1347 /* DiscografiaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C1102260DC048000C1347 /* DiscografiaViewController.swift */; };
 		FD1C1106260DC173000C1347 /* DiscosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C1105260DC173000C1347 /* DiscosTableViewCell.swift */; };
+		FD4C1C0D260E417400C5CFE3 /* ArticuloTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C1C0C260E417400C5CFE3 /* ArticuloTableViewCell.swift */; };
 		FD7D7987260DF1CD007B0A2A /* CancionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D7986260DF1CD007B0A2A /* CancionTableViewCell.swift */; };
+		FD7D798A260E151D007B0A2A /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D7989260E151D007B0A2A /* TriviaViewController.swift */; };
+		FD7D798D260E195D007B0A2A /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D798C260E195D007B0A2A /* TableViewCell.swift */; };
+		FD7D7998260E2F82007B0A2A /* TriviaBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D7997260E2F82007B0A2A /* TriviaBackViewController.swift */; };
+		FD7D799B260E32BC007B0A2A /* SouvenirsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D799A260E32BC007B0A2A /* SouvenirsViewController.swift */; };
+		FD7D79A1260E3318007B0A2A /* CompraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D79A0260E3318007B0A2A /* CompraViewController.swift */; };
 		FD828261260DBA7200F4348D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD828260260DBA7200F4348D /* ProfileViewController.swift */; };
 		FDB47E2D260BF2700062D11F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB47E2C260BF2700062D11F /* AppDelegate.swift */; };
 		FDB47E2F260BF2700062D11F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB47E2E260BF2700062D11F /* SceneDelegate.swift */; };
@@ -24,7 +30,13 @@
 		FD1C10FF260DBFAB000C1347 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		FD1C1102260DC048000C1347 /* DiscografiaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscografiaViewController.swift; sourceTree = "<group>"; };
 		FD1C1105260DC173000C1347 /* DiscosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscosTableViewCell.swift; sourceTree = "<group>"; };
+		FD4C1C0C260E417400C5CFE3 /* ArticuloTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticuloTableViewCell.swift; sourceTree = "<group>"; };
 		FD7D7986260DF1CD007B0A2A /* CancionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancionTableViewCell.swift; sourceTree = "<group>"; };
+		FD7D7989260E151D007B0A2A /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		FD7D798C260E195D007B0A2A /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FD7D7997260E2F82007B0A2A /* TriviaBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaBackViewController.swift; sourceTree = "<group>"; };
+		FD7D799A260E32BC007B0A2A /* SouvenirsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouvenirsViewController.swift; sourceTree = "<group>"; };
+		FD7D79A0260E3318007B0A2A /* CompraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompraViewController.swift; sourceTree = "<group>"; };
 		FD828260260DBA7200F4348D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		FDB47E29260BF2700062D11F /* final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDB47E2C260BF2700062D11F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +73,9 @@
 		FD82825D260DB5C400F4348D /* trivia */ = {
 			isa = PBXGroup;
 			children = (
+				FD7D7989260E151D007B0A2A /* TriviaViewController.swift */,
+				FD7D798C260E195D007B0A2A /* TableViewCell.swift */,
+				FD7D7997260E2F82007B0A2A /* TriviaBackViewController.swift */,
 			);
 			path = trivia;
 			sourceTree = "<group>";
@@ -68,6 +83,9 @@
 		FD82825E260DB5D500F4348D /* souvenirs */ = {
 			isa = PBXGroup;
 			children = (
+				FD7D799A260E32BC007B0A2A /* SouvenirsViewController.swift */,
+				FD7D79A0260E3318007B0A2A /* CompraViewController.swift */,
+				FD4C1C0C260E417400C5CFE3 /* ArticuloTableViewCell.swift */,
 			);
 			path = souvenirs;
 			sourceTree = "<group>";
@@ -177,9 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDB47E31260BF2700062D11F /* ViewController.swift in Sources */,
+				FD7D798A260E151D007B0A2A /* TriviaViewController.swift in Sources */,
 				FDB47E2D260BF2700062D11F /* AppDelegate.swift in Sources */,
 				FD828261260DBA7200F4348D /* ProfileViewController.swift in Sources */,
 				FD7D7987260DF1CD007B0A2A /* CancionTableViewCell.swift in Sources */,
+				FD7D799B260E32BC007B0A2A /* SouvenirsViewController.swift in Sources */,
+				FD4C1C0D260E417400C5CFE3 /* ArticuloTableViewCell.swift in Sources */,
+				FD7D7998260E2F82007B0A2A /* TriviaBackViewController.swift in Sources */,
+				FD7D79A1260E3318007B0A2A /* CompraViewController.swift in Sources */,
+				FD7D798D260E195D007B0A2A /* TableViewCell.swift in Sources */,
 				FD1C1103260DC048000C1347 /* DiscografiaViewController.swift in Sources */,
 				FDB47E2F260BF2700062D11F /* SceneDelegate.swift in Sources */,
 				FD1C1106260DC173000C1347 /* DiscosTableViewCell.swift in Sources */,
